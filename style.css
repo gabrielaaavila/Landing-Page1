@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-image: linear-gradient(120deg, rgba(132, 250, 175, 0.744) 0%, rgba(143, 210, 244, 0.733) 100%);;
+    padding: 20px;
+}
+  
+h1 {
+    color: #000000;
+    text-align: left;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+  
+nav ul li a {
+    margin-right: 20px;
+    text-align: center;
+    color: #000000;
+}
+  
+section {
+    padding: 60px 10px;
+    text-align: center;
+}
+  
+footer {
+    background-image:  linear-gradient(120deg, rgba(132, 250, 175, 0.744) 0%, rgba(143, 210, 244, 0.733) 100%);;;
+    padding: 20px;
+    text-align: center;
+}
+  
+  /* Estilos específicos para secciones */
+
+#ropa {
+    background-color: #fff;
+}
+  
+#comida {
+    background-color: #fff;
+}
+  
+#juguetes {
+    background-color: #fff;
+}
+
+/*Galeria*/
+
+.galeria { 
+    background: #fffefe
+}
+
+.galeria-cont {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.galeria-cont>img {
+    overflow: hidden;
+    width: 16%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block
+ 
+}
+
+/* info*/
+
+.last-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    
+}
+
+.last-section img {
+    width: 30%;
+}
+
+.last-section .contenedor-textos-main {
+    width: 40%;
+}
+  
+/*footer*/
+
+footer { 
+    background-color: rgb(151, 225, 227);
+    color: #fff
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 20px 10px;
+}
+
+.input::placeholder {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 29px;
+}
+
+.input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px
+}
+
+.form textarea { 
+ width: 100%;
+ margin-bottom: 15px;
+}
+
+input [type="submit"] {
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+}
+
+input [type="submit"]:hover {
+   color: rgb(0, 0, 0);
+    cursor: pointer;
+    background: #fff;
+}
+
+@media screen and (max-width:800px){
+    .textos-hero h1{
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
